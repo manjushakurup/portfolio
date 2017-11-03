@@ -1,0 +1,291 @@
+﻿
+body
+{
+    margin:0px;
+    padding:0px;
+}
+.AboutContainer
+{
+    position:relative;    
+     width:100%;
+    height:624px;
+    margin:0px;
+    padding:0px;
+    background-color:#E8DBC5;
+    left: 0px;
+    top: 0px;
+}
+
+.AboutMe
+{
+   
+    float:left;
+    width:50%;
+    height:80%;
+    position:relative;
+    top:50px;
+    left:3%;
+
+}
+
+
+.AboutMe img
+{
+    
+   height:100%;
+   width:100%;
+
+}
+
+.ContactMe
+{
+    width:50%;
+    float:right;
+    position:relative;
+    top:10%;
+    left:10%;
+}
+div.form label
+{
+    color:#A68064;
+    
+   
+}
+
+
+
+#ContactMe
+{
+    float:right;
+    position:relative;
+    top:50px;
+    left:0px;
+   background-color:#8c7557;
+    width:550px;
+    height:600px;
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/* Default property recognized by some browsers- a Good practice to include it*/
+-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*For Mozilla Firefox Browsers*/
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*For Webkite browsers - Chrome and Safari*/
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+
+
+}
+input, textarea {
+	 padding-left:22px;
+	 height:23px;
+	 border: solid 1px #E5E5E5;
+	font: normal 12px Verdana, Tahoma, sans-serif;
+	 width: 200px;
+	 box-shadow:0 0 2px 3px #b8690c;/* Default property recognized by some browsers- a Good practice to include it*/
+	-moz-box-shadow: 0 0 2px 3px #b8690c;/*For Mozilla Firefox Browsers*/
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;/*For Webkite browsers - Chrome and Safari*/
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));/*Chrome and Safari*/
+	 background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);/* Firefox Browsers */
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+
+
+	 }
+	#submitButton #Send,#btnSubmit
+	{
+	    position:relative;
+	    left:3%;
+	    color:#563712;
+	   
+	    font: normal 12px Verdana, Tahoma, sans-serif;
+	    
+	}
+	 
+	textarea 
+	{
+	    position:relative;
+	    left:2px;
+	    top:5px;
+	 width: 400px;
+	 max-width: 400px;
+	 height: 150px;
+	 line-height: 150%;
+	
+
+	 }
+	 p#ContactName.items
+	 {
+	     margin-top:100px;
+	 }
+	
+	form label {
+	 margin-left: 10px;
+	 color: #fbcf04;
+	 font-size:20px;
+	 margin-right:40px;
+	
+	 -moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+
+	border-radius:12px;
+	text-shadow:1px 2px 3px #000;
+
+	 }
+	 
+	
+	
+#ContactWebsite label
+{
+    margin-right:25px !important;
+}
+
+#Contact
+{
+    color:#563712;
+ font-size:30px;
+ font-style:italic;
+ text-shadow:1px 2px 3px #000;
+ float:right;
+ position:relative;
+ left:-300px;
+ top:30px;
+}
+#lblSuccess
+{
+    color:#563712;
+    font-size:20px;
+    font-weight:bolder;
+    position:relative;
+    left:5%;
+    top:-15px;
+}
+
+
+#txtName
+{
+    background:url("../Images/i_name.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+}
+
+#txtName:focus,#txtEmail:focus,#txtPhone:focus,#txtWebsite:focus,#txtBudget:focus,#txtMessage:focus
+{
+    background-image:none;
+}
+
+#RegularExpressionValidatorEmail
+{
+    position:relative;
+    left:-20%;
+}
+    
+    #txtEmail
+    {
+    background: url("../Images/i_email.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+    }
+    #txtPhone
+    {
+         background: url("../Images/phone.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+    }
+    #txtWebsite
+    {
+        background: url("../Images/i_website.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+    }
+    #txtBudget
+    {
+      background: url("../Images/i_budget.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);  
+    }
+    #txtMessage
+    {
+       background: url("../Images/i_message.png") no-repeat scroll 4px center rgba(0, 0, 0, 0); 
+    }
+/*
+div.form div.ContactinputName #ContactnameHome
+{
+    background: url("../Images/i_name.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;
+	-moz-box-shadow: 0 0 2px 3px #b8690c;
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+}
+    
+div.form div.ContactinputEmail #ContactemailHome
+{
+    background: url("../Images/i_email.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;
+	-moz-box-shadow: 0 0 2px 3px #b8690c;
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+	margin-top:10px;
+}
+div.form div.ContactinputNumber #Contactphone
+{
+    background: url("../Images/phone.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;
+	-moz-box-shadow: 0 0 2px 3px #b8690c;
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+	margin-top:10px;
+}
+div.form div.ContactWebsite #Contactsiteaddress
+{
+    background: url("../Images/i_website.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;
+	-moz-box-shadow: 0 0 2px 3px #b8690c;
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+	margin-top:10px;
+}
+div.form div.Contactinputbudget #Contactbudget
+{
+    background: url("../Images/i_budget.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;
+	-moz-box-shadow: 0 0 2px 3px #b8690c;
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+	margin-top:10px;
+}
+div.form div.ContactinputMessage #Contactmessage
+{
+    background: url("../Images/i_message.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;
+	-moz-box-shadow: 0 0 2px 3px #b8690c;
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+	margin-top:30px;
+	left:0px;
+	width:300px;
+	height:90px;
+	max-height:90px;
+}
+div.form input#Aboutsend {
+    background: url("../Images/button_send.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    display: block;
+    height: 37px;
+    margin: 10px 0 0;
+    text-indent: -9999px;
+    width: 110px;
+    float:left;
+    position:relative;
+    top:0px;
+    left:40%;
+}
+
+
+*/

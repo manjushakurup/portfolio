@@ -1,0 +1,92 @@
+﻿ .Container
+{
+    position:relative;
+    top:-26px;
+    width:100%;
+    height:1500px;
+    margin:0px;
+    padding:0px;
+    background-color:#E8DBC5;
+    
+}
+.Container #divContent
+{
+    position:relative;
+    margin:0 auto;
+    
+    top:50px;
+   width:800px;
+}
+#divContent h1
+{
+    font-size:30px;
+    font-style:italic;
+    color:#563712;
+}
+#divContent h5
+{
+    font-size:15px;
+    color:#A68064;
+    left:10px !important;
+}
+div.flexslider
+    {
+        height:400px;
+        width:900px;
+        position:relative;
+        top:70px;
+        left:250px;
+        box-shadow:0 0 10px 10px #563712;
+        
+    }
+    div.flexslider li p
+{
+    display:inherit;
+    color:#563712;
+    position:relative;
+    top:20px;
+    left:400px;
+    font-family:manju;
+    font-size:30px;
+    
+}
+div.flexslider img#shelf
+{
+    width:1000px;
+    height:100px;
+    position:absolute;
+    top:400px;
+    left:-45px;
+    z-index:-0.2;
+   
+}
+#boxContent img
+{
+    width:1000px;
+    height:250px;
+    position:relative;
+    top:150px;
+    left:195px;
+}
+div.leftlamp img{
+    background:no-repeat scroll center center transparent;
+    display: block;
+    height: 106px;
+    left: -20px;
+    pointer-events: none;
+    position: absolute;
+    top: -14px;
+    width: 109px;
+    z-index: 14;
+}
+div.rightlamp img{
+    background:no-repeat scroll center center transparent;
+    display: block;
+    height: 106px;
+    left:-200px;
+    pointer-events: none;
+    position: absolute;
+    top:0px;
+    width: 109px;
+    z-index: 14;
+}

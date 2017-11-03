@@ -1,0 +1,1038 @@
+﻿/* ******************************MEDIA QUERY FOR MAXIMUM SCREEN WIDTH OF 1034PX****************************/
+@media screen and (min-width:860px) and (max-width:1034px)
+{
+    body
+    {   
+       
+            
+       margin:0px;
+       padding:0px; 
+       
+       
+    }
+    #divHeader
+    {
+        height:350px;
+        width:100%;
+        
+       
+    }
+    #divHeader img
+    {
+       position:relative;
+       left:0%;
+        width:100%;
+        height:350px;
+       
+    }
+    .nav
+    {
+        position:absolute;
+        top:35%;
+        left:28%;
+    }
+   
+    .nav li
+    {
+        padding:5px;
+         -moz-border-radius:5px;
+	    -webkit-border-radius:5px;	 
+        border-radius:5px;
+    }
+    .nav li a
+    {
+        font-size:15px;
+        font-weight:lighter;
+        
+    }
+    
+
+
+   
+    
+     .Container
+{
+    position:relative;
+    top:2%;
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    background-color:#E8DBC5;
+    
+}
+.Container #divContent
+{
+    width:70%;
+    position:relative;   
+    top:50px;
+    left:0%;
+}
+#divContent h1
+{
+    font-size:25px;
+    font-style:italic;
+    color:#563712;
+}
+#divContent h5
+{
+    font-size:15px;
+    color:#A68064;
+    left:10px !important;
+    text-align:justify;
+}
+div.flexslider
+    {
+        height:400px;
+        width:67%;
+        position:relative;
+        top:100px;
+        left:16%;
+        box-shadow:0 0 10px 10px #563712;
+        
+        
+        
+    }
+    div.flexslider li p
+{
+    display:block !important;
+    color:#452913;
+    position:relative;
+    top:12px;
+    font-family:manju;
+    font-size:20px;
+    text-shadow: 0 3px 0 rgba(255, 255, 255, 0.2) !important;
+    text-align: center;
+    text-transform: uppercase !important;
+}
+div.flexslider img#shelf
+{
+   width:110%;
+    height:60px;
+    position:absolute;
+    top:400px;
+    left:-5%;
+    z-index:-0.2;
+   background:no-repeat scroll center bottom rgba(0, 0, 0, 0);  
+}
+div.Container div.galleryshadow {
+   height:10%;
+    position: relative;
+    top:10%;
+    left:15%;
+    width:70%;
+    background: url("../Images/gallery_shadow.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+   
+}
+div.Container div.quote {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.15) !important;
+    border: 5px solid #A29A3B !important;
+    border-radius: 14px 14px 14px 14px !important;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1) inset, 0 3px 3px rgba(0, 0, 0, 0.15) !important;
+    position:relative;
+    top:200px;
+    left:15%;
+    width:70%;
+    height:170px;
+    }
+div.Container div.quote p {
+   
+   line-height:130%;
+   position:relative;
+   left:5%;
+   width:85%;
+   top:-80px;
+   font-size:20px;
+   color:#A68064;
+    
+}
+div.Container div.quote span
+{
+    line-height:130%;
+    position:relative;
+    top:-80px;
+    color:#563712;
+    
+}
+div.Container div.quote span a
+{
+    line-height:130%;
+    position:relative;
+    top:1%;
+    left:0%;
+    color:#cdab2d;
+    
+}
+
+div.Container div.quote img
+{
+    position:relative;
+    left:-2%;
+    top:20px;
+}
+
+div.Container div.hireme a {
+    background-image: url("../Images/button_hireme_nohover.png") !important;
+    background-position: center top !important;
+    background-size: 100% auto !important;
+    max-height: 80px !important;
+    max-width: 380px !important;
+    width: 90% !important;
+    
+}
+div.Container div.hireme a:hover, div.Container div.hireme a:active {
+    background-position: center top !important;
+}
+
+div.Container div.hireme {
+    background: url("../Images/button_hireme_shadow.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+    height: 100px;
+    position: absolute;
+    right: 20px;
+    top: 80%;
+    width: 414px;
+}
+div.Container a#hireme {
+    background: url("../Images/button_hireme2.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    display: block;
+    height: 80px;
+    margin: 0 auto;
+    text-indent: -9999px;
+    width: 380px;
+}
+div.Container a#hireme:hover {
+    background-position: center center;
+}
+div.Container a#hireme:active {
+    background-position: center bottom;
+}
+
+
+
+
+#columnLeft 
+{
+    position:relative;
+    top:280px;
+    left:10%;
+     color:#563712;
+    width:40%;
+    font-size:17px;
+    text-align:justify;
+    
+}
+
+div#columnLeft a.shadow {
+	background: url("../Images/picture_shadow.png") no-repeat bottom center;
+	display: block;
+	float: left;
+	margin: 25px 0px 0px 6px;
+	padding-bottom: 2px;
+	width: 72px;
+	
+}
+
+div#columnLeft a.shadow { margin-left: 5px; }
+
+div#columnLeft a.shadow img { border: 3px solid #f8f5ea; }
+
+div#columnLeft a.shadow:hover img {
+	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+}
+div#columnRight
+{
+    width:50%;
+    float:right;
+    position:relative;
+    top:70px;
+    left:5%;
+    height:300px;
+    
+}
+div#columnRight h3
+{
+    color:#563712;
+    font-size:20px;
+}
+div.form label
+{
+    color:#A68064;
+    
+   
+}
+div.form div.inputName #nameHome
+{
+    background: url("../Images/i_name.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;/* Default property recognized by some browsers- a Good practice to include it*/
+	-moz-box-shadow: 0 0 2px 3px #b8690c;/*For Mozilla Firefox Browsers*/
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;/*For Webkite browsers - Chrome and Safari*/
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+}
+    
+div.form div.inputEmail #emailHome
+{
+    background: url("../Images/i_email.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;/* Default property recognized by some browsers- a Good practice to include it*/
+	-moz-box-shadow: 0 0 2px 3px #b8690c;/*For Mozilla Firefox Browsers*/
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;/*For Webkite browsers - Chrome and Safari*/
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+	margin-top:10px;
+}
+div.form div.inputMessage #message
+{
+    background: url("../Images/i_message.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;/* Default property recognized by some browsers- a Good practice to include it*/
+	-moz-box-shadow: 0 0 2px 3px #b8690c;/*For Mozilla Firefox Browsers*/
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;/*For Webkite browsers - Chrome and Safari*/
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+	margin-top:30px;
+	left:0px;
+	width:300px;
+	height:70px;
+	max-height:70px;
+}
+p.infoleft
+{
+    color:#563712;
+    width:300px;
+}
+ p.infoleft a
+{
+    color:#cdab2d;
+    cursor:help;
+    text-decoration:none;
+}
+div.form input#send {
+    background: url("../Images/button_send.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    display: block;
+    height: 37px;
+    margin: 10px 0 0;
+    text-indent: -9999px;
+    width: 110px;
+    float:right;
+    position:relative;
+    top:-70px;
+    left:-70px;
+}
+
+div.leftlamp img{
+    background:no-repeat scroll center center transparent;
+    display: block;
+    height: 106px;
+    left: -20px;
+    pointer-events: none;
+    position: absolute;
+    top: -14px;
+    width: 109px;
+    z-index: 14;
+}
+div.rightlamp img{
+    background:no-repeat scroll center center transparent;
+    display: block;
+    height: 106px;
+    left:87%;
+    pointer-events: none;
+    position: absolute;
+    top:0px;
+    width: 109px;
+    z-index: 14;
+} 
+div.fadegallery img {
+    height: 400px !important;
+    left: 45%;
+    max-width: 600px;
+    position: fixed !important;
+    top: 5%; 
+    width: 97% !important;
+  border:5px solid #563712;
+   box-shadow:0 0 5px 5px #b8690c;/* Default property recognized by some browsers- a Good practice to include it*/
+	-moz-box-shadow: 0 0 5px 5px #b8690c;/*For Mozilla Firefox Browsers*/
+	-webkit-box-shadow: 0 0 5px 5px #b8690c;/*For Webkite browsers - Chrome and Safari*/
+	
+  
+}
+
+div.fadegallery a.close {
+    background: url("../Images/text_clicktoclose.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: block;
+    height: 80px;
+    
+    margin-left: 143px;
+    position: relative;
+    top:10%;
+    left: 32%;
+    text-indent: -9999px;
+    width: 300px;
+    z-index: 600;
+}
+div.shade {
+    background: none repeat scroll 0 0 #fff;
+    height: 100%;
+    width: 100%;
+
+}
+div.fadegallery a.close {
+    position: fixed !important;
+    top: 80px !important;
+}
+
+
+    
+    
+
+div.footer {
+    background: url("../Images/bg_footer.jpg") repeat-x scroll center bottom rgba(0, 0, 0, 0);
+    color: #DABA98;
+    height: 388px;
+    width:1200px;
+    margin: 40px 0 0;
+    position: relative;
+    left:-10%;
+    top:480px;
+}
+
+div.footer div.footerContainer {
+    background: url("../Images/bg_footer_lights.jpg") no-repeat scroll center top rgba(0, 0, 0, 0);
+    height: 366px;
+    margin: 0 auto;
+   
+    position: relative;
+    top: 22px;
+    width: 960px;
+    left:0%;
+}
+
+
+
+#leftColumn
+{
+    float:left;
+    position:relative;
+    top:-13%;
+    left:0%;
+    
+}
+
+
+
+
+
+
+ul.main
+{
+    list-style-type:none;   
+    padding:10px;
+    color:#FFFFFF;
+    font-size:25px;
+    text-transform:capitalize;
+    
+}
+ul.sub
+{
+    
+    list-style-type:none;
+    color:#d6aa66;
+    font-size:15px;
+    text-transform:capitalize;
+    
+}
+ #footerh5
+{
+    color:#d6aa66;
+    font-size:15px;
+    font-style:italic;    
+    text-decoration:underline;
+    position:relative;
+    left:15%;
+    
+}
+  #footerh2
+{
+    
+    color:#FFFFFF;
+    font-size:30px;
+    font-style:italic;
+    font-weight:bolder;
+    text-shadow:5px 5px 10px #000;
+   margin-left:50px;
+   
+}
+#rightColumn 
+{
+   position:relative;
+   top:-250px;
+   right:10%;
+   float:right;
+    width: 360px;
+}
+#rightColumn h2 a
+{
+    color:#d6aa66;
+    font-size:25px;
+    text-decoration:none;
+    font-style:italic;
+    position:relative;
+    left:60%;
+}
+#rightColumn pre
+{
+   position:relative;
+    left:22%;
+    top:40px;
+    color:#FFF;
+    font-size:20px;
+}
+
+#rightColumn ul
+{
+    display:inline-block;
+    list-style-type:none;
+    position:relative;
+    top:20%;
+    left:50%;
+    
+}
+#rightColumn ul li
+{
+   
+    padding:1px;
+    margin-right:1px;
+    
+    
+    border-radius:5px;
+    float:right;
+    
+    
+    
+}
+#rightColumn ul li a
+{
+    text-decoration:none;
+    color:#d6aa66;
+    
+}
+
+
+#rightColumn ul li.twit a img,#rightColumn ul li.facebook a img,#rightColumn ul li.flickr a img
+{
+    height:50px;
+    width:50px;
+    position:relative;
+    top:0px;
+    margin-right:10px;
+    
+   
+}
+
+
+#rightColumn ul li.twit a img:hover,#rightColumn ul li.facebook a img:hover,#rightColumn ul li.flickr a img:hover
+
+
+{
+    opacity:0.5;
+    
+    
+}
+ #centerColumn
+        {
+            height: 20px;
+            width: 280px;
+        }
+#centerColumn p
+{
+    position:relative;
+    top:-350px;
+    left:130%;
+   
+}
+#centerColumn > #bottomTabs
+{
+    position:relative;
+    left:100%;
+    list-style-type:none;
+    
+    
+    
+}
+
+
+/***********About.aspx**************/
+
+
+.AboutContainer
+{
+    position:relative;    
+     width:100%;
+    height:624px;
+    margin:0px;
+    padding:0px;
+    background-color:#E8DBC5;
+    left: 0px;
+    top: 0px;
+}
+
+.AboutMe
+{
+   
+    float:left;
+    width:57%;
+    height:80%;
+    position:relative;
+    top:50px;
+    left:3%;
+
+}
+
+
+.AboutMe img
+{
+    
+   height:100%;
+   width:100%;
+
+}
+
+.ContactMe
+{
+    width:43%;
+    float:right;
+    position:relative;
+    top:15%;
+    left:7%;
+}
+div.form label
+{
+    color:#A68064;
+    
+   
+}
+div.form div.ContactinputName #ContactnameHome
+{
+    background: url("../Images/i_name.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;/* Default property recognized by some browsers- a Good practice to include it*/
+	-moz-box-shadow: 0 0 2px 3px #b8690c;/*For Mozilla Firefox Browsers*/
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;/*For Webkite browsers - Chrome and Safari*/
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+}
+    
+div.form div.ContactinputEmail #ContactemailHome
+{
+    background: url("../Images/i_email.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;/* Default property recognized by some browsers- a Good practice to include it*/
+	-moz-box-shadow: 0 0 2px 3px #b8690c;/*For Mozilla Firefox Browsers*/
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;/*For Webkite browsers - Chrome and Safari*/
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+	margin-top:10px;
+}
+div.form div.ContactinputNumber #Contactphone
+{
+    background: url("../Images/phone.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;/* Default property recognized by some browsers- a Good practice to include it*/
+	-moz-box-shadow: 0 0 2px 3px #b8690c;/*For Mozilla Firefox Browsers*/
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;/*For Webkite browsers - Chrome and Safari*/
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+	margin-top:10px;
+}
+div.form div.ContactWebsite #Contactsiteaddress
+{
+    background: url("../Images/i_website.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;/* Default property recognized by some browsers- a Good practice to include it*/
+	-moz-box-shadow: 0 0 2px 3px #b8690c;/*For Mozilla Firefox Browsers*/
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;/*For Webkite browsers - Chrome and Safari*/
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+	margin-top:10px;
+}
+div.form div.Contactinputbudget #Contactbudget
+{
+    background: url("../Images/i_budget.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;/* Default property recognized by some browsers- a Good practice to include it*/
+	-moz-box-shadow: 0 0 2px 3px #b8690c;/*For Mozilla Firefox Browsers*/
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;/*For Webkite browsers - Chrome and Safari*/
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+	margin-top:10px;
+}
+div.form div.ContactinputMessage #Contactmessage
+{
+    background: url("../Images/i_message.png") no-repeat scroll 4px center rgba(0, 0, 0, 0);
+     box-shadow:0 0 2px 3px #b8690c;/* Default property recognized by some browsers- a Good practice to include it*/
+	-moz-box-shadow: 0 0 2px 3px #b8690c;/*For Mozilla Firefox Browsers*/
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;/*For Webkite browsers - Chrome and Safari*/
+	
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+	margin-top:30px;
+	left:0px;
+	width:300px;
+	height:90px;
+	max-height:90px;
+}
+div.form input#Aboutsend {
+    background: url("../Images/button_send.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    display: block;
+    height: 37px;
+    margin: 10px 0 0;
+    text-indent: -9999px;
+    width: 110px;
+    float:left;
+    position:relative;
+    top:0px;
+    left:40%;
+}
+
+
+
+#ContactMe
+{
+    float:right;
+    position:relative;
+    top:50px;
+    left:0px;
+   background-color:#8c7557;
+    width:550px;
+    height:600px;
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/* Default property recognized by some browsers- a Good practice to include it*/
+-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*For Mozilla Firefox Browsers*/
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*For Webkite browsers - Chrome and Safari*/
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+
+
+}
+input, textarea {
+	 padding: 8px;
+	 border: solid 1px #E5E5E5;
+	font: normal 12px Verdana, Tahoma, sans-serif;
+	 width: 200px;
+	 box-shadow:0 0 2px 3px #b8690c;/* Default property recognized by some browsers- a Good practice to include it*/
+	-moz-box-shadow: 0 0 2px 3px #b8690c;/*For Mozilla Firefox Browsers*/
+	-webkit-box-shadow: 0 0 2px 3px #b8690c;/*For Webkite browsers - Chrome and Safari*/
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));/*Chrome and Safari*/
+	 background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);/* Firefox Browsers */
+	-moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius:12px;
+
+
+	 }
+	#submitButton #Send
+	{
+	    position:relative;
+	    left:30%;
+	    color:#563712;
+	   
+	    font-size:25px;
+	}
+	 
+	textarea 
+	{
+	    position:relative;
+	    left:110px;
+	    top:-20px;
+	 width: 400px;
+	 max-width: 400px;
+	 height: 150px;
+	 line-height: 150%;
+	
+
+	 }
+	 p#ContactName.items
+	 {
+	     margin-top:100px;
+	 }
+	
+	form label {
+	 margin-left: 10px;
+	 color: #fbcf04;
+	 font-size:20px;
+	 margin-right:40px;
+	
+	 -moz-border-radius:12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+
+	border-radius:12px;
+	text-shadow:1px 2px 3px #000;
+
+	 }
+	 
+	
+	
+#ContactWebsite label
+{
+    margin-right:25px !important;
+}
+
+#Contact
+{
+    color:#563712;
+ font-size:30px;
+ font-style:italic;
+ text-shadow:1px 2px 3px #000;
+ float:right;
+ position:relative;
+ left:-300px;
+ top:30px;
+}
+
+
+div.Aboutfooter {
+    background: url("../Images/bg_footer.jpg") repeat-x scroll center bottom rgba(0, 0, 0, 0);
+    color: #DABA98;
+    height: 388px;
+    width:1200px;
+    margin: 40px 0 0;
+    position: relative;
+    left:0%;
+    top:0px;
+    
+}
+
+div.Aboutfooter div.AboutfooterContainer {
+    background: url("../Images/bg_footer_lights.jpg") no-repeat scroll center top rgba(0, 0, 0, 0);
+    height: 366px;
+    margin: 0 auto;
+   
+    position: relative;
+    top: 22px;
+    width: 960px;
+    left:-10%;
+}
+#AboutleftColumn
+{
+    float:left;
+    position:relative;
+    top:5%;
+    left:3%;
+    
+}
+#AboutrightColumn 
+{
+   position:relative;
+   top:0%;
+   left:1%;
+   float:right;
+    width: 360px;
+   
+  
+}
+#AboutrightColumn h2 a
+{
+    color:#d6aa66;
+    font-size:25px;
+    text-decoration:none;
+    font-style:italic;
+    position:relative;
+    left:30%;
+}
+#AboutrightColumn pre
+{
+    position:relative;
+    left:0%;
+    top:40px;
+   
+    color:#FFF;
+    font-size:20px;
+}
+
+#AboutrightColumn ul
+{
+    display:inline-block;
+    list-style-type:none;
+    position:relative;
+    top:10px;
+    left:20%;
+    
+}
+#AboutrightColumn ul li
+{
+   
+    padding:1px;
+    margin-right:1px;
+    
+    
+    border-radius:5px;
+    float:right;
+    
+    
+    
+}
+#AboutrightColumn ul li a
+{
+    text-decoration:none;
+    color:#d6aa66;
+    
+}
+
+
+#AboutrightColumn ul li.twit a img,#AboutrightColumn ul li.facebook a img,#AboutrightColumn ul li.flickr a img
+{
+    height:50px;
+    width:50px;
+    position:relative;
+    top:0px;
+    margin-right:10px;
+    
+   
+}
+
+
+#AboutrightColumn ul li.twit a img:hover,#AboutrightColumn ul li.facebook a img:hover,#AboutrightColumn ul li.flickr a img:hover
+
+
+{
+    opacity:0.5;
+    
+    
+}
+#AboutcenterColumn p
+{
+    position:relative;
+    top:20px;
+    left:10%;
+   
+}
+div.Portfoliofooter {
+    background: url("../Images/bg_footer.jpg") repeat-x scroll center bottom rgba(0, 0, 0, 0);
+    color: #DABA98;
+    height: 388px;
+    width:1200px;
+    margin: 40px 0 0;
+    position: relative;
+    top:3%;
+    left:0%;
+}
+
+div.Portfoliofooter div.PortfoliofooterContainer {
+    background: url("../Images/bg_footer_lights.jpg") no-repeat scroll center top rgba(0, 0, 0, 0);
+    height: 366px;
+    margin: 0 auto;
+   
+    position: relative;
+    top: 22px;
+    width: 960px;
+    left:-10%;
+}
+#PortfolioleftColumn
+{
+    float:left;
+    position:relative;
+    top:5%;
+    left:3%;
+    
+}
+#PortfoliorightColumn 
+{
+   position:relative;
+   top:0%;
+   left:1%;
+   float:right;
+  width: 360px; 
+  
+}
+#PortfoliorightColumn h2 a
+{
+    color:#d6aa66;
+    font-size:25px;
+    text-decoration:none;
+    font-style:italic;
+    position:relative;
+    left:30%;
+}
+#PortfoliorightColumn pre
+{
+    position:relative;
+    left:0%;
+    top:40px;
+   
+    color:#FFF;
+    font-size:20px;
+}
+
+#PortfoliorightColumn ul
+{
+    display:inline-block;
+    list-style-type:none;
+    position:relative;
+    top:10px;
+    left:20%;
+    
+}
+#PortfoliorightColumn ul li
+{
+   
+    padding:1px;
+    margin-right:1px;
+    
+    
+    border-radius:5px;
+    float:right;
+    
+    
+    
+}
+#PortfoliorightColumn ul li a
+{
+    text-decoration:none;
+    color:#d6aa66;
+    
+}
+
+
+#PortfoliorightColumn ul li.twit a img,#PortfoliorightColumn ul li.facebook a img,#PortfoliorightColumn ul li.flickr a img
+{
+    height:50px;
+    width:50px;
+    position:relative;
+    top:0px;
+    margin-right:10px;
+    
+   
+}
+
+
+#PortfoliorightColumn ul li.twit a img:hover,#PortfoliorightColumn ul li.facebook a img:hover,#PortfoliorightColumn ul li.flickr a img:hover
+
+
+{
+    opacity:0.5;
+    
+    
+}
+#PortfoliocenterColumn p
+{
+    position:relative;
+    top:20px;
+    left:20%;
+   
+}
+}

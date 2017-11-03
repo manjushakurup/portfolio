@@ -1,0 +1,11 @@
+C:\Manju\Projects\Personal Website\bin\PortfolioDesignUsingHTML5.dll.config
+C:\Manju\Projects\Personal Website\bin\PortfolioDesignUsingHTML5.dll
+C:\Manju\Projects\Personal Website\bin\PortfolioDesignUsingHTML5.pdb
+C:\Manju\Projects\Personal Website\obj\Debug\PortfolioDesignUsingHTML5.dll
+C:\Manju\Projects\Personal Website\obj\Debug\PortfolioDesignUsingHTML5.pdb
+C:\Manju\Projects\Personal Website\obj\Debug\PortfolioDesignUsingHTML5.csprojResolveAssemblyReference.cache
+C:\Manju\Projects\Portfolio\bin\PortfolioDesignUsingHTML5.dll.config
+C:\Manju\Projects\Portfolio\bin\PortfolioDesignUsingHTML5.dll
+C:\Manju\Projects\Portfolio\bin\PortfolioDesignUsingHTML5.pdb
+C:\Manju\Projects\Portfolio\obj\Debug\PortfolioDesignUsingHTML5.dll
+C:\Manju\Projects\Portfolio\obj\Debug\PortfolioDesignUsingHTML5.pdb

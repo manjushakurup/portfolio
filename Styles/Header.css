@@ -1,0 +1,40 @@
+﻿@import url("/Styles/navigation.css");
+@import url("/Styles/container.css");
+@import url("/Styles/Footer.css");
+@import url("/Styles/AboutContainer.css");
+@import url("/Styles/portfolio.css");
+
+@charset 'utf-8';
+@font-face
+{
+    font-family:manju;
+    src:url('../Fonts/arcanum.ttf');
+}
+html
+{
+    overflow-x:hidden;
+    
+}
+
+body
+{
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+#divHeader
+{
+    background-color:#8c7557;
+    width:100%;
+    height:400px;
+}
+#divHeader img
+{
+    position:absolute;    
+    top:0px;
+    
+    width:100%;
+    height:400px;
+    
+}
+
